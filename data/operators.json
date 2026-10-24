@@ -1,0 +1,313 @@
+{
+ "_meta": {
+  "note": "干员名录截至 1.6「丹青渡」。职业体系：近卫/术师/重装/辅助/先锋/突击。limited=true 为限定（仅限时期UP池及复刻获取），false 为常驻（基础寻访池内）。",
+  "sources": "官网各期寻访公告、canmoe干员数据库、BWIKI、白鲸攻略组（详见 data/SOURCES.md）"
+ },
+ "operators": [
+  {
+   "id": "莱万汀",
+   "name": "莱万汀",
+   "rarity": 6,
+   "profession": "突击",
+   "element": "灼热",
+   "limited": true,
+   "firstBanner": "熔火灼痕",
+   "firstVersion": "1.0",
+   "rerunBanners": [
+    "绚丽异彩"
+   ]
+  },
+  {
+   "id": "洁尔佩塔",
+   "name": "洁尔佩塔",
+   "rarity": 6,
+   "profession": "辅助",
+   "element": "自然",
+   "limited": true,
+   "firstBanner": "轻飘飘的信使",
+   "firstVersion": "1.0"
+  },
+  {
+   "id": "伊冯",
+   "name": "伊冯",
+   "rarity": 6,
+   "profession": "突击",
+   "element": "寒冷",
+   "limited": true,
+   "firstBanner": "热烈色彩",
+   "firstVersion": "1.0",
+   "rerunBanners": [
+    "绚丽异彩"
+   ]
+  },
+  {
+   "id": "汤汤",
+   "name": "汤汤",
+   "rarity": 6,
+   "profession": "术师",
+   "element": "寒冷",
+   "limited": true,
+   "firstBanner": "河流的女儿",
+   "firstVersion": "1.1",
+   "rerunBanners": [
+    "祖泉的新流"
+   ]
+  },
+  {
+   "id": "洛茜",
+   "name": "洛茜",
+   "rarity": 6,
+   "profession": "近卫",
+   "element": "物理",
+   "limited": true,
+   "firstBanner": "狼珀",
+   "firstVersion": "1.1"
+  },
+  {
+   "id": "庄方宜",
+   "name": "庄方宜",
+   "rarity": 6,
+   "profession": "突击",
+   "element": "电磁",
+   "limited": true,
+   "firstBanner": "春雷动，万物生",
+   "firstVersion": "1.2"
+  },
+  {
+   "id": "弭弗",
+   "name": "弭弗",
+   "rarity": 6,
+   "profession": "近卫",
+   "element": "物理",
+   "limited": true,
+   "firstBanner": "拳出无悔",
+   "firstVersion": "1.3"
+  },
+  {
+   "id": "卡缪",
+   "name": "卡缪",
+   "rarity": 6,
+   "profession": "先锋",
+   "element": "灼热",
+   "limited": true,
+   "firstBanner": "逐罪者",
+   "firstVersion": "1.3"
+  },
+  {
+   "id": "诀",
+   "name": "诀",
+   "rarity": 6,
+   "profession": "术师",
+   "element": "自然",
+   "limited": true,
+   "firstBanner": "临渊望北",
+   "firstVersion": "1.4"
+  },
+  {
+   "id": "梨诺",
+   "name": "梨诺",
+   "rarity": 6,
+   "profession": "辅助",
+   "element": "电磁",
+   "limited": true,
+   "firstBanner": "晨星于此闪耀",
+   "firstVersion": "1.4"
+  },
+  {
+   "id": "提弗洛斯",
+   "name": "提弗洛斯",
+   "rarity": 6,
+   "profession": "突击",
+   "element": "自然",
+   "limited": true,
+   "firstBanner": "冬猎",
+   "firstVersion": "1.5"
+  },
+  {
+   "id": "祀",
+   "name": "祀",
+   "rarity": 6,
+   "profession": "辅助",
+   "element": "寒冷",
+   "limited": true,
+   "firstBanner": "万物更新",
+   "firstVersion": "1.6"
+  },
+  {
+   "id": "明河",
+   "name": "明河",
+   "rarity": 6,
+   "profession": "近卫",
+   "element": "电磁",
+   "limited": true,
+   "firstBanner": "烟火邀星河",
+   "firstVersion": "1.6",
+   "notes": "职业据媒体资料，待游戏内核实"
+  },
+  {
+   "id": "艾尔黛拉",
+   "name": "艾尔黛拉",
+   "rarity": 6,
+   "profession": "辅助",
+   "element": "自然",
+   "limited": false,
+   "notes": "开服活动另可直接赠送获取；基础寻访300抽自选五选一对象"
+  },
+  {
+   "id": "骏卫",
+   "name": "骏卫",
+   "rarity": 6,
+   "profession": "先锋",
+   "element": "物理",
+   "limited": false
+  },
+  {
+   "id": "别礼",
+   "name": "别礼",
+   "rarity": 6,
+   "profession": "突击",
+   "element": "寒冷",
+   "limited": false
+  },
+  {
+   "id": "余烬",
+   "name": "余烬",
+   "rarity": 6,
+   "profession": "重装",
+   "element": "灼热",
+   "limited": false
+  },
+  {
+   "id": "黎风",
+   "name": "黎风",
+   "rarity": 6,
+   "profession": "近卫",
+   "element": "物理",
+   "limited": false
+  },
+  {
+   "id": "狼卫",
+   "name": "狼卫",
+   "rarity": 5,
+   "profession": "术师",
+   "element": "灼热",
+   "limited": false
+  },
+  {
+   "id": "佩丽卡",
+   "name": "佩丽卡",
+   "rarity": 5,
+   "profession": "术师",
+   "element": "电磁",
+   "limited": false,
+   "notes": "剧情核心角色，获取渠道细节待核实"
+  },
+  {
+   "id": "弧光",
+   "name": "弧光",
+   "rarity": 5,
+   "profession": "先锋",
+   "element": "电磁",
+   "limited": false
+  },
+  {
+   "id": "阿列什",
+   "name": "阿列什",
+   "rarity": 5,
+   "profession": "先锋",
+   "element": "寒冷",
+   "limited": false
+  },
+  {
+   "id": "艾维文娜",
+   "name": "艾维文娜",
+   "rarity": 5,
+   "profession": "突击",
+   "element": "电磁",
+   "limited": false
+  },
+  {
+   "id": "大潘",
+   "name": "大潘",
+   "rarity": 5,
+   "profession": "突击",
+   "element": "物理",
+   "limited": false
+  },
+  {
+   "id": "赛希",
+   "name": "赛希",
+   "rarity": 5,
+   "profession": "辅助",
+   "element": "寒冷",
+   "limited": false
+  },
+  {
+   "id": "昼雪",
+   "name": "昼雪",
+   "rarity": 5,
+   "profession": "重装",
+   "element": "寒冷",
+   "limited": false,
+   "notes": "预约赠送，是否入池待核实"
+  },
+  {
+   "id": "陈千语",
+   "name": "陈千语",
+   "rarity": 5,
+   "profession": "近卫",
+   "element": "物理",
+   "limited": false,
+   "notes": "疑似剧情/开荒赠送，是否入池待核实"
+  },
+  {
+   "id": "噗切娜",
+   "name": "噗切娜",
+   "rarity": 5,
+   "profession": "重装",
+   "element": "物理",
+   "limited": false,
+   "notes": "1.5 版本活动免费赠送干员（含专属武器「点心时刻」），不进任何卡池"
+  },
+  {
+   "id": "埃特拉",
+   "name": "埃特拉",
+   "rarity": 4,
+   "profession": "近卫",
+   "element": "寒冷",
+   "limited": false
+  },
+  {
+   "id": "安塔尔",
+   "name": "安塔尔",
+   "rarity": 4,
+   "profession": "辅助",
+   "element": "电磁",
+   "limited": false
+  },
+  {
+   "id": "卡契尔",
+   "name": "卡契尔",
+   "rarity": 4,
+   "profession": "重装",
+   "element": "物理",
+   "limited": false
+  },
+  {
+   "id": "秋栗",
+   "name": "秋栗",
+   "rarity": 4,
+   "profession": "先锋",
+   "element": "灼热",
+   "limited": false
+  },
+  {
+   "id": "萤石",
+   "name": "萤石",
+   "rarity": 4,
+   "profession": "术师",
+   "element": "自然",
+   "limited": false
+  }
+ ]
+}

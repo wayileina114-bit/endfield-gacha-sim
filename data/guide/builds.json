@@ -1,0 +1,127 @@
+{
+  "_meta": {
+    "note": "六星干员推荐配装（社区攻略整理，截至1.6）。配装与强度为社区观点且随版本变动，仅供参考；来源见 data/SOURCES.md。词条顺序：基础/附加（或技能）。",
+    "disclaimer": "强度评价有时效性，请以当前版本实际情况为准"
+  },
+  "builds": [
+    {
+      "operator": "莱万汀", "role": "灼热单手剑主C", "element": "灼热",
+      "signatureWeapon": "熔铸火焰", "altWeapons": ["白夜新星（过渡）", "黯色火炬（通行证）", "坚城锻造者（开荒）"],
+      "matrixEntries": ["智识", "攻击", "夜幕"], "matrixLocations": ["武陵城"],
+      "rating": "开服双榜T0『全游戏唯一真神』；1.3后有卡缪从T1摸到版本T0。火队核心，需多火队友+1冰/电/自然队友。"
+    },
+    {
+      "operator": "洁尔佩塔", "role": "自然施术单元辅助（聚怪）", "element": "自然",
+      "signatureWeapon": "使命必达", "altWeapons": ["遗忘", "作品：蚀迹", "莫奈何", "悼亡诗"],
+      "matrixEntries": ["意志", "终结技充能效率", "追袭"], "matrixLocations": ["枢纽区", "源石研究园"],
+      "rating": "开荒T0、攻坚T1；唯一泛用聚怪+对群真神，终结技30%+法术脆弱；主堆充能效率。"
+    },
+    {
+      "operator": "伊冯", "role": "寒冷手铳术师（副C）", "element": "寒冷",
+      "signatureWeapon": "艺术暴君", "altWeapons": ["领航者（过渡）", "楔子", "O.B.J.迅极（开荒）"],
+      "matrixEntries": ["智识（最优先）", "切骨", "暴击率"], "matrixLocations": [],
+      "rating": "开服T0（17173榜）；寒冷体系核心，快速叠失衡+聚怪。词条优先保证智识（法伤）与寒冷增伤。"
+    },
+    {
+      "operator": "汤汤", "role": "冰系法术辅助副C", "element": "寒冷",
+      "signatureWeapon": "落草", "altWeapons": ["望乡（六星月卡）", "作品：众生"],
+      "matrixEntries": ["待核实（第三词条社区预测为昂扬/效益）"], "matrixLocations": [],
+      "rating": "冰队核心补强：全类型敌人生效的时停强控+法术脆弱+高频冰附着；『决伊汤塞』双时停队成员。"
+    },
+    {
+      "operator": "洛茜", "role": "灼热辅助", "element": "灼热",
+      "signatureWeapon": "狼之绯", "altWeapons": ["光荣记忆（通行证）"],
+      "matrixEntries": ["敏捷", "暴击率", "切骨"], "matrixLocations": ["供能高地", "武陵城"],
+      "rating": "24%常驻脆弱+45%灼热伤害提升+奶量+技力回复，带队标记扩莱万汀攻击范围；可组物法队。"
+    },
+    {
+      "operator": "庄方宜", "role": "电磁大C", "element": "电磁",
+      "signatureWeapon": "孤舟", "altWeapons": ["通行证（大月卡）武器"],
+      "matrixEntries": ["意志", "攻击", "压制"], "matrixLocations": [],
+      "rating": "1.2电系核心大C，『一带三』好养成；0潜强度即高，青霆剑最多积9把；最优配队佩丽卡+弧光+艾维文娜。"
+    },
+    {
+      "operator": "弭弗", "role": "物理近卫大C", "element": "物理",
+      "signatureWeapon": "赤缨", "altWeapons": ["幻想苦痛"],
+      "matrixEntries": ["力量", "攻击", "巧技"], "matrixLocations": ["枢纽区", "源石研究园", "藏剑谷"],
+      "rating": "0+0即可当物理大C：聚怪+猛击+物理脆弱；常与卡缪+洛茜组混色火物理队。"
+    },
+    {
+      "operator": "卡缪", "role": "灼热先锋（副C/辅助）", "element": "灼热",
+      "signatureWeapon": "镀红祝福", "altWeapons": ["灯火使命（无课长柄）", "J.E.T."],
+      "matrixEntries": ["敏捷", "灼热伤害", "流转"], "matrixLocations": ["枢纽区", "供能高地", "首墩", "试验园区"],
+      "rating": "『火队最后一块拼图』、秋栗上位；与莱万汀组合登顶1.3环境。"
+    },
+    {
+      "operator": "诀", "role": "法术体系核心", "element": "自然",
+      "signatureWeapon": "四二式·肃阵", "altWeapons": ["联结点", "遗忘"],
+      "matrixEntries": ["智识", "终结技充能效率"], "matrixLocations": ["枢纽区", "武陵城", "清波寨"],
+      "rating": "输出较绑定专武三词条，打输出建议抽专武；1.5顶配队（提弗洛斯+诀+梨诺+艾尔黛拉）成员。"
+    },
+    {
+      "operator": "梨诺", "role": "奶攻辅", "element": "电磁",
+      "signatureWeapon": "曜夜的首演（意志+156/治疗效率+46.4%）", "altWeapons": ["黄金时代（通行证，前两条词条与专武相同）"],
+      "matrixEntries": ["意志", "治疗效率"], "matrixLocations": [],
+      "rating": "『纯数值怪』，0潜常态22.4%大攻击加成；技能加点战技>大招>连携；装备长息3件套。"
+    },
+    {
+      "operator": "提弗洛斯", "role": "自然突击", "element": "自然",
+      "signatureWeapon": "寒夜幽影", "altWeapons": ["苦难的尽头"],
+      "matrixEntries": ["敏捷/攻击/迸发（寒夜幽影）；敏捷/自然伤害/迸发（苦难的尽头）"],
+      "matrixLocations": ["武陵城", "藏剑谷", "应龙关", "雪松林", "枢纽区", "矿脉源区"],
+      "rating": "自然浮空机制新C；1.5顶配队：提弗洛斯+诀+梨诺+艾尔黛拉。"
+    },
+    {
+      "operator": "祀", "role": "法术输出/辅助", "element": "寒冷",
+      "signatureWeapon": "玉中身", "altWeapons": ["悠久传承（词条同玉中身）"],
+      "matrixEntries": ["智识", "寒冷", "效益"], "matrixLocations": ["枢纽区", "源石研究园", "矿脉源区", "藏剑谷", "应龙关", "祀的画"],
+      "rating": "综合攻坚型，法术输出+辅助双职能，与莱万汀搭配强。"
+    },
+    {
+      "operator": "明河", "role": "物理+法术输出/辅助", "element": "电磁",
+      "signatureWeapon": "唤月", "altWeapons": ["聚合工业（意志/电磁/迸发）"],
+      "matrixEntries": ["意志", "攻击", "附术"], "matrixLocations": ["源石研究园", "供能高地", "首墩", "应龙关", "祀的画"],
+      "rating": "导电机制，与黎风/电磁近卫联动。"
+    },
+    {
+      "operator": "艾尔黛拉", "role": "自然施术单元辅助（常驻）", "element": "自然",
+      "signatureWeapon": "沧溟星梦（开服签到10天赠送）", "altWeapons": ["悼亡诗", "布道自由", "骑士精神"],
+      "matrixEntries": ["智识", "治疗效率", "附术"], "matrixLocations": ["矿脉源区", "供能高地"],
+      "rating": "攻坚T0『万能辅助插件』：治疗+物法双脆弱+腐蚀减抗，物法队都能塞；1潜35%双脆弱30秒。"
+    },
+    {
+      "operator": "骏卫", "role": "物理单手剑先锋（常驻）", "element": "物理",
+      "signatureWeapon": "不知归", "altWeapons": ["热熔切割器（过渡）", "仰止（开荒）"],
+      "matrixEntries": ["意志", "攻击", "流转·轮回（基础属性含物理伤害提升）"], "matrixLocations": [],
+      "rating": "双榜T0.5『物理队发动机』，全游唯一滑铲模组，技力回复前列，适合新手/初始号；上限受破防层数限制。"
+    },
+    {
+      "operator": "别礼", "role": "寒冷双手剑突击（常驻）", "element": "寒冷",
+      "signatureWeapon": "赫拉芬格", "altWeapons": ["破碎君王（过渡）", "探骊（开荒）"],
+      "matrixEntries": ["冰伤方向（完整词条待核实，枢纽区可刷）"], "matrixLocations": ["枢纽区"],
+      "rating": "冰队核爆大C：倍率恐怖、自拐强，但大招充能慢、范围小、僵直大；攻坚T0.5/开荒T2。"
+    },
+    {
+      "operator": "余烬", "role": "灼热双手剑重装（常驻）", "element": "灼热",
+      "signatureWeapon": "大雷斑", "altWeapons": ["昔日精品（过渡）", "终点之声（开荒）"],
+      "matrixEntries": ["力量", "生命", "医疗（生存向）"], "matrixLocations": [],
+      "rating": "开服期『六星唯一正经生存位』：连携受击治疗+大招全队盾，开荒T0.5/攻坚T1『生存轮椅』。"
+    },
+    {
+      "operator": "黎风", "role": "物理长柄近卫副C（常驻）", "element": "物理",
+      "signatureWeapon": "负山", "altWeapons": ["骁勇（过渡）"],
+      "matrixEntries": ["敏捷", "暴击率方向（细节待核实）"], "matrixLocations": [],
+      "rating": "双破防+聚怪，开荒T2/攻坚T1，面板偏弱需练度；1.6与明河导电体系重新就业。"
+    }
+  ],
+  "extras": [
+    { "operator": "管理员", "note": "主角物理主C，专武宏愿（6元礼包或2480武库配额），施加源石结晶最适配" },
+    { "operator": "噗切娜", "note": "1.5赠送五星，专武点心时刻（单手剑，力量/治疗/医疗，供能高地/武陵城/清波寨/藏剑谷/北部禁区）" },
+    { "operator": "狼卫", "note": "推荐武器同类相食" },
+    { "operator": "秋栗", "note": "过渡武器 O.B.J.轻芒 / 热熔切割器" },
+    { "operator": "赛希", "note": "推荐武器 爆破单元/骑士精神" },
+    { "operator": "佩丽卡", "note": "推荐武器 爆破单元/遗忘" },
+    { "operator": "陈千语", "note": "推荐武器 扶摇" },
+    { "operator": "大潘", "note": "推荐武器 典范" }
+  ]
+}

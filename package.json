@@ -1,0 +1,13 @@
+{
+  "name": "endfield-gacha-simulator",
+  "version": "1.0.0",
+  "description": "明日方舟：终末地 抽卡模拟器（数据来自官方公告与社区攻略整理，仅作参考）",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test src/tests/engine.test.js src/tests/official.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

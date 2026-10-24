@@ -1,0 +1,15 @@
+{
+  "game": "明日方舟：终末地",
+  "launchDate": "2026-01-22",
+  "dataCutoff": "2026-10-24",
+  "currentVersion": "1.6",
+  "timeline": [
+    { "version": "1.0", "name": "零号委托", "start": "2026-01-22" },
+    { "version": "1.1", "name": "新潮起，故渊离", "start": "2026-03-12" },
+    { "version": "1.2", "name": "春晓时", "start": "2026-04-17" },
+    { "version": "1.3", "name": "寻遗散记", "start": "2026-06-05" },
+    { "version": "1.4", "name": "向渊行", "start": "2026-07-16" },
+    { "version": "1.5", "name": "雪凇幽梦", "start": "2026-09-02" },
+    { "version": "1.6", "name": "丹青渡", "start": "2026-10-15" }
+  ]
+}

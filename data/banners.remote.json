@@ -1,0 +1,1037 @@
+{
+ "lastSync": "2026-10-24T07:31:40.929Z",
+ "articleCount": 34,
+ "charBanners": [
+  {
+   "id": "c01",
+   "name": "熔火灼痕",
+   "type": "limited",
+   "version": "1.0",
+   "versionName": null,
+   "start": "2026-01-22",
+   "end": "2026-02-07",
+   "up6": "莱万汀",
+   "pool6": [
+    "莱万汀",
+    "洁尔佩塔",
+    "伊冯",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/1188",
+    "https://endfield.hypergryph.com/news/1188"
+   ]
+  },
+  {
+   "id": "c02",
+   "name": "轻飘飘的信使",
+   "type": "limited",
+   "version": "1.0",
+   "versionName": null,
+   "start": "2026-02-07",
+   "end": "2026-02-24",
+   "up6": "洁尔佩塔",
+   "pool6": [
+    "洁尔佩塔",
+    "伊冯",
+    "莱万汀",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/8561",
+    "https://endfield.hypergryph.com/news/8561"
+   ]
+  },
+  {
+   "id": "c13",
+   "name": "绚丽异彩",
+   "type": "rerun",
+   "version": "1.0",
+   "versionName": null,
+   "start": "2026-09-24",
+   "end": "2026-10-15",
+   "up6": "伊冯",
+   "pool6": [
+    "伊冯",
+    "洁尔佩塔",
+    "莱万汀",
+    "艾尔黛拉",
+    "骏卫",
+    "别礼",
+    "余烬",
+    "黎风"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/2651"
+   ]
+  },
+  {
+   "id": "c16",
+   "name": "烟火邀星河",
+   "type": "limited",
+   "version": "1.0",
+   "versionName": null,
+   "start": "2026-11-05",
+   "end": "2026-11-26",
+   "up6": "明河",
+   "pool6": [
+    "明河",
+    "祀",
+    "提弗洛斯",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/6094"
+   ]
+  },
+  {
+   "id": "c03",
+   "name": "热烈色彩",
+   "type": "limited",
+   "version": "1.0",
+   "versionName": null,
+   "start": "2026-02-24",
+   "end": "2026-03-12",
+   "up6": "伊冯",
+   "pool6": [
+    "伊冯",
+    "洁尔佩塔",
+    "莱万汀",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/7226",
+    "https://endfield.hypergryph.com/news/7226"
+   ]
+  },
+  {
+   "id": "c04",
+   "name": "河流的女儿",
+   "type": "limited",
+   "version": "1.1",
+   "versionName": null,
+   "start": "2026-03-12",
+   "end": "2026-03-29",
+   "up6": "汤汤",
+   "pool6": [
+    "汤汤",
+    "伊冯",
+    "洁尔佩塔",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/5992",
+    "https://endfield.hypergryph.com/news/5992",
+    "https://endfield.hypergryph.com/news/6003"
+   ]
+  },
+  {
+   "id": "c05",
+   "name": "狼珀",
+   "type": "limited",
+   "version": "1.1",
+   "versionName": null,
+   "start": "2026-03-29",
+   "end": "2026-04-17",
+   "up6": "洛茜",
+   "pool6": [
+    "洛茜",
+    "汤汤",
+    "伊冯",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/7224",
+    "https://endfield.hypergryph.com/news/7224",
+    "https://endfield.hypergryph.com/news/6003"
+   ]
+  },
+  {
+   "id": "c06",
+   "name": "春雷动，万物生",
+   "type": "limited",
+   "version": "1.2",
+   "versionName": null,
+   "start": "2026-04-17",
+   "end": "2026-05-22",
+   "up6": "庄方宜",
+   "pool6": [
+    "庄方宜",
+    "洛茜",
+    "汤汤",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/5999",
+    "https://endfield.hypergryph.com/news/5999"
+   ]
+  },
+  {
+   "id": "c07",
+   "name": "辉光庆典",
+   "type": "special",
+   "version": "1.2",
+   "versionName": null,
+   "start": "2026-05-14",
+   "end": "2026-06-05",
+   "up6": null,
+   "pool6": [
+    "莱万汀",
+    "洁尔佩塔",
+    "艾尔黛拉",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/9342",
+    "https://endfield.hypergryph.com/news/9343"
+   ]
+  },
+  {
+   "id": "c08",
+   "name": "拳出无悔",
+   "type": "limited",
+   "version": "1.3",
+   "versionName": null,
+   "start": "2026-06-05",
+   "end": "2026-06-26",
+   "up6": "弭弗",
+   "pool6": [
+    "弭弗",
+    "庄方宜",
+    "洛茜",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/2661",
+    "https://endfield.hypergryph.com/news/2661",
+    "https://endfield.hypergryph.com/news/0439"
+   ]
+  },
+  {
+   "id": "c09",
+   "name": "逐罪者",
+   "type": "limited",
+   "version": "1.3",
+   "versionName": null,
+   "start": "2026-06-26",
+   "end": "2026-07-16",
+   "up6": "卡缪",
+   "pool6": [
+    "卡缪",
+    "弭弗",
+    "庄方宜",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/3804",
+    "https://endfield.hypergryph.com/news/3804",
+    "https://endfield.hypergryph.com/news/0439"
+   ]
+  },
+  {
+   "id": "c10",
+   "name": "临渊望北",
+   "type": "limited",
+   "version": "1.4",
+   "versionName": null,
+   "start": "2026-07-16",
+   "end": "2026-08-09",
+   "up6": "诀",
+   "pool6": [
+    "诀",
+    "卡缪",
+    "弭弗",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/8545",
+    "https://endfield.hypergryph.com/news/8545",
+    "https://endfield.hypergryph.com/news/9335"
+   ]
+  },
+  {
+   "id": "c11",
+   "name": "晨星于此闪耀",
+   "type": "limited",
+   "version": "1.4",
+   "versionName": null,
+   "start": "2026-08-09",
+   "end": "2026-09-02",
+   "up6": "梨诺",
+   "pool6": [
+    "梨诺",
+    "诀",
+    "卡缪",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/1165",
+    "https://endfield.hypergryph.com/news/1165",
+    "https://endfield.hypergryph.com/news/9335"
+   ]
+  },
+  {
+   "id": "c12",
+   "name": "冬猎",
+   "type": "limited",
+   "version": "1.4",
+   "versionName": null,
+   "start": "2026-09-02",
+   "end": "2026-09-30",
+   "up6": "提弗洛斯",
+   "pool6": [
+    "提弗洛斯",
+    "梨诺",
+    "诀",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/6097",
+    "https://endfield.hypergryph.com/news/6097",
+    "https://endfield.hypergryph.com/news/2653"
+   ]
+  },
+  {
+   "id": "c14",
+   "name": "万物更新",
+   "type": "limited",
+   "version": "1.6",
+   "versionName": "丹青渡",
+   "start": "2026-10-15",
+   "end": "2026-11-05",
+   "up6": "祀",
+   "pool6": [
+    "祀",
+    "提弗洛斯",
+    "梨诺",
+    "余烬",
+    "黎风",
+    "艾尔黛拉",
+    "别礼",
+    "骏卫"
+   ],
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/8548",
+    "https://endfield.hypergryph.com/news/8548",
+    "https://endfield.hypergryph.com/news/6094"
+   ]
+  }
+ ],
+ "wpnBanners": [
+  {
+   "id": "w14",
+   "name": "篆玉申领",
+   "type": "normal",
+   "version": "1.6",
+   "start": "2026-10-15",
+   "end": "2026-11-05",
+   "up6": "玉中身",
+   "up6Type": "双手剑",
+   "pool6": [
+    "玉中身",
+    "昔日精品",
+    "楔子",
+    "J.E.T.",
+    "骑士精神",
+    "破碎君王",
+    "显赫声名"
+   ],
+   "pool6Detail": [
+    {
+     "name": "玉中身",
+     "type": "双手剑"
+    },
+    {
+     "name": "昔日精品",
+     "type": "双手剑"
+    },
+    {
+     "name": "楔子",
+     "type": "手铳"
+    },
+    {
+     "name": "J.E.T.",
+     "type": "长柄武器"
+    },
+    {
+     "name": "骑士精神",
+     "type": "施术单元"
+    },
+    {
+     "name": "破碎君王",
+     "type": "双手剑"
+    },
+    {
+     "name": "显赫声名",
+     "type": "单手剑"
+    }
+   ],
+   "pairedCharBanner": "万物更新",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/6094"
+   ]
+  },
+  {
+   "id": "w16",
+   "name": "月映申领",
+   "type": "normal",
+   "version": "1.0",
+   "start": "2026-11-05",
+   "end": "2026-11-26",
+   "up6": "唤月",
+   "up6Type": "单手剑",
+   "pool6": [
+    "唤月",
+    "热熔切割器",
+    "白夜新星",
+    "骁勇",
+    "遗忘",
+    "同类相食",
+    "典范"
+   ],
+   "pool6Detail": [
+    {
+     "name": "唤月",
+     "type": "单手剑"
+    },
+    {
+     "name": "热熔切割器",
+     "type": "单手剑"
+    },
+    {
+     "name": "白夜新星",
+     "type": "单手剑"
+    },
+    {
+     "name": "骁勇",
+     "type": "长柄武器"
+    },
+    {
+     "name": "遗忘",
+     "type": "施术单元"
+    },
+    {
+     "name": "同类相食",
+     "type": "手铳"
+    },
+    {
+     "name": "典范",
+     "type": "双手剑"
+    }
+   ],
+   "pairedCharBanner": "烟火邀星河",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/6094"
+   ]
+  },
+  {
+   "id": "w12",
+   "name": "幽寒申领",
+   "type": "normal",
+   "version": "1.4",
+   "start": "2026-09-02",
+   "end": "2026-09-30",
+   "up6": "寒夜幽影",
+   "up6Type": "施术单元",
+   "pool6": [
+    "寒夜幽影",
+    "典范",
+    "同类相食",
+    "骁勇",
+    "遗忘",
+    "爆破单元",
+    "扶摇"
+   ],
+   "pool6Detail": [
+    {
+     "name": "寒夜幽影",
+     "type": "施术单元"
+    },
+    {
+     "name": "典范",
+     "type": "双手剑"
+    },
+    {
+     "name": "同类相食",
+     "type": "手铳"
+    },
+    {
+     "name": "骁勇",
+     "type": "长柄武器"
+    },
+    {
+     "name": "遗忘",
+     "type": "施术单元"
+    },
+    {
+     "name": "爆破单元",
+     "type": "施术单元"
+    },
+    {
+     "name": "扶摇",
+     "type": "单手剑"
+    }
+   ],
+   "pairedCharBanner": "冬猎",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/2653"
+   ]
+  },
+  {
+   "id": "w10",
+   "name": "军列申领",
+   "type": "normal",
+   "version": "1.4",
+   "start": "2026-07-16",
+   "end": "2026-08-09",
+   "up6": "四二式·肃阵",
+   "up6Type": "施术单元",
+   "pool6": [
+    "四二式·肃阵",
+    "昔日精品",
+    "楔子",
+    "显赫声名",
+    "J.E.T.",
+    "爆破单元",
+    "遗忘"
+   ],
+   "pool6Detail": [
+    {
+     "name": "四二式·肃阵",
+     "type": "施术单元"
+    },
+    {
+     "name": "昔日精品",
+     "type": "双手剑"
+    },
+    {
+     "name": "楔子",
+     "type": "手铳"
+    },
+    {
+     "name": "显赫声名",
+     "type": "单手剑"
+    },
+    {
+     "name": "J.E.T.",
+     "type": "长柄武器"
+    },
+    {
+     "name": "爆破单元",
+     "type": "施术单元"
+    },
+    {
+     "name": "遗忘",
+     "type": "施术单元"
+    }
+   ],
+   "pairedCharBanner": "临渊望北",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/9335"
+   ]
+  },
+  {
+   "id": "w11",
+   "name": "明曜申领",
+   "type": "normal",
+   "version": "1.4",
+   "start": "2026-08-09",
+   "end": "2026-09-02",
+   "up6": "曜夜的首演",
+   "up6Type": "长柄武器",
+   "pool6": [
+    "曜夜的首演",
+    "破碎君王",
+    "同类相食",
+    "骁勇",
+    "J.E.T.",
+    "爆破单元",
+    "热熔切割器"
+   ],
+   "pool6Detail": [
+    {
+     "name": "曜夜的首演",
+     "type": "长柄武器"
+    },
+    {
+     "name": "破碎君王",
+     "type": "双手剑"
+    },
+    {
+     "name": "同类相食",
+     "type": "手铳"
+    },
+    {
+     "name": "骁勇",
+     "type": "长柄武器"
+    },
+    {
+     "name": "J.E.T.",
+     "type": "长柄武器"
+    },
+    {
+     "name": "爆破单元",
+     "type": "施术单元"
+    },
+    {
+     "name": "热熔切割器",
+     "type": "单手剑"
+    }
+   ],
+   "pairedCharBanner": "晨星于此闪耀",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/9335"
+   ]
+  },
+  {
+   "id": "w08",
+   "name": "绛结申领",
+   "type": "normal",
+   "version": "1.3",
+   "start": "2026-06-05",
+   "end": "2026-06-26",
+   "up6": "赤缨",
+   "up6Type": "双手剑",
+   "pool6": [
+    "赤缨",
+    "昔日精品",
+    "破碎君王",
+    "同类相食",
+    "扶摇",
+    "爆破单元",
+    "骁勇"
+   ],
+   "pool6Detail": [
+    {
+     "name": "赤缨",
+     "type": "双手剑"
+    },
+    {
+     "name": "昔日精品",
+     "type": "双手剑"
+    },
+    {
+     "name": "破碎君王",
+     "type": "双手剑"
+    },
+    {
+     "name": "同类相食",
+     "type": "手铳"
+    },
+    {
+     "name": "扶摇",
+     "type": "单手剑"
+    },
+    {
+     "name": "爆破单元",
+     "type": "施术单元"
+    },
+    {
+     "name": "骁勇",
+     "type": "长柄武器"
+    }
+   ],
+   "pairedCharBanner": "拳出无悔",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/0439"
+   ]
+  },
+  {
+   "id": "w09",
+   "name": "染赤申领",
+   "type": "normal",
+   "version": "1.3",
+   "start": "2026-06-26",
+   "end": "2026-07-16",
+   "up6": "镀红祝福",
+   "up6Type": "长柄武器",
+   "pool6": [
+    "镀红祝福",
+    "骁勇",
+    "J.E.T.",
+    "同类相食",
+    "热熔切割器",
+    "遗忘",
+    "典范"
+   ],
+   "pool6Detail": [
+    {
+     "name": "镀红祝福",
+     "type": "长柄武器"
+    },
+    {
+     "name": "骁勇",
+     "type": "长柄武器"
+    },
+    {
+     "name": "J.E.T.",
+     "type": "长柄武器"
+    },
+    {
+     "name": "同类相食",
+     "type": "手铳"
+    },
+    {
+     "name": "热熔切割器",
+     "type": "单手剑"
+    },
+    {
+     "name": "遗忘",
+     "type": "施术单元"
+    },
+    {
+     "name": "典范",
+     "type": "双手剑"
+    }
+   ],
+   "pairedCharBanner": "逐罪者",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/0439"
+   ]
+  },
+  {
+   "id": "w05",
+   "name": "行舟申领",
+   "type": "normal",
+   "version": null,
+   "start": "2026-04-17",
+   "end": "2026-05-14",
+   "up6": "孤舟",
+   "up6Type": "施术单元",
+   "pool6": [
+    "孤舟",
+    "遗忘",
+    "骑士精神",
+    "显赫声名",
+    "J.E.T.",
+    "楔子",
+    "典范"
+   ],
+   "pool6Detail": [
+    {
+     "name": "孤舟",
+     "type": "施术单元"
+    },
+    {
+     "name": "遗忘",
+     "type": "施术单元"
+    },
+    {
+     "name": "骑士精神",
+     "type": "施术单元"
+    },
+    {
+     "name": "显赫声名",
+     "type": "单手剑"
+    },
+    {
+     "name": "J.E.T.",
+     "type": "长柄武器"
+    },
+    {
+     "name": "楔子",
+     "type": "手铳"
+    },
+    {
+     "name": "典范",
+     "type": "双手剑"
+    }
+   ],
+   "pairedCharBanner": null,
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/9343"
+   ]
+  },
+  {
+   "id": "w06",
+   "name": "熔灼申领",
+   "type": "normal",
+   "version": "1.2",
+   "start": "2026-05-14",
+   "end": "2026-06-05",
+   "up6": "熔铸火焰",
+   "up6Type": "单手剑",
+   "pool6": [
+    "熔铸火焰",
+    "热熔切割器",
+    "白夜新星",
+    "同类相食",
+    "爆破单元",
+    "骁勇",
+    "昔日精品"
+   ],
+   "pool6Detail": [
+    {
+     "name": "熔铸火焰",
+     "type": "单手剑"
+    },
+    {
+     "name": "热熔切割器",
+     "type": "单手剑"
+    },
+    {
+     "name": "白夜新星",
+     "type": "单手剑"
+    },
+    {
+     "name": "同类相食",
+     "type": "手铳"
+    },
+    {
+     "name": "爆破单元",
+     "type": "施术单元"
+    },
+    {
+     "name": "骁勇",
+     "type": "长柄武器"
+    },
+    {
+     "name": "昔日精品",
+     "type": "双手剑"
+    }
+   ],
+   "pairedCharBanner": "辉光庆典",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/9343"
+   ]
+  },
+  {
+   "id": "w07",
+   "name": "疾行申领",
+   "type": "normal",
+   "version": "1.2",
+   "start": "2026-05-14",
+   "end": "2026-06-05",
+   "up6": "使命必达",
+   "up6Type": "施术单元",
+   "pool6": [
+    "使命必达",
+    "遗忘",
+    "爆破单元",
+    "楔子",
+    "白夜新星",
+    "典范",
+    "骁勇"
+   ],
+   "pool6Detail": [
+    {
+     "name": "使命必达",
+     "type": "施术单元"
+    },
+    {
+     "name": "遗忘",
+     "type": "施术单元"
+    },
+    {
+     "name": "爆破单元",
+     "type": "施术单元"
+    },
+    {
+     "name": "楔子",
+     "type": "手铳"
+    },
+    {
+     "name": "白夜新星",
+     "type": "单手剑"
+    },
+    {
+     "name": "典范",
+     "type": "双手剑"
+    },
+    {
+     "name": "骁勇",
+     "type": "长柄武器"
+    }
+   ],
+   "pairedCharBanner": "辉光庆典",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/9343"
+   ]
+  },
+  {
+   "id": "w03",
+   "name": "新芽申领",
+   "type": "normal",
+   "version": "1.1",
+   "start": "2026-03-12",
+   "end": "2026-03-29",
+   "up6": "落草",
+   "up6Type": "手铳",
+   "pool6": [
+    "落草",
+    "同类相食",
+    "楔子",
+    "骑士精神",
+    "热熔切割器",
+    "破碎君王",
+    "J.E.T."
+   ],
+   "pool6Detail": [
+    {
+     "name": "落草",
+     "type": "手铳"
+    },
+    {
+     "name": "同类相食",
+     "type": "手铳"
+    },
+    {
+     "name": "楔子",
+     "type": "手铳"
+    },
+    {
+     "name": "骑士精神",
+     "type": "施术单元"
+    },
+    {
+     "name": "热熔切割器",
+     "type": "单手剑"
+    },
+    {
+     "name": "破碎君王",
+     "type": "双手剑"
+    },
+    {
+     "name": "J.E.T.",
+     "type": "长柄武器"
+    }
+   ],
+   "pairedCharBanner": "河流的女儿",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/6003"
+   ]
+  },
+  {
+   "id": "w04",
+   "name": "绯珀申领",
+   "type": "normal",
+   "version": "1.1",
+   "start": "2026-03-29",
+   "end": "2026-04-17",
+   "up6": "狼之绯",
+   "up6Type": "单手剑",
+   "pool6": [
+    "狼之绯",
+    "扶摇",
+    "显赫声名",
+    "楔子",
+    "昔日精品",
+    "爆破单元",
+    "骁勇"
+   ],
+   "pool6Detail": [
+    {
+     "name": "狼之绯",
+     "type": "单手剑"
+    },
+    {
+     "name": "扶摇",
+     "type": "单手剑"
+    },
+    {
+     "name": "显赫声名",
+     "type": "单手剑"
+    },
+    {
+     "name": "楔子",
+     "type": "手铳"
+    },
+    {
+     "name": "昔日精品",
+     "type": "双手剑"
+    },
+    {
+     "name": "爆破单元",
+     "type": "施术单元"
+    },
+    {
+     "name": "骁勇",
+     "type": "长柄武器"
+    }
+   ],
+   "pairedCharBanner": "狼珀",
+   "notes": "官方公告自动同步",
+   "_source": [
+    "https://endfield.hypergryph.com/news/6003"
+   ]
+  }
+ ],
+ "operators": [],
+ "weapons": [],
+ "images": {},
+ "weaponImages": {}
+}

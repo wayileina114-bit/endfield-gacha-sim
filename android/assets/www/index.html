@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>终末地·寻访模拟器 ENDFIELD GACHA SIM</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpolygon points='16,2 29,9.5 29,22.5 16,30 3,22.5 3,9.5' fill='%23f5a623'/%3E%3C/svg%3E">
+</head>
+<body>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-scan" aria-hidden="true"></div>
+<div class="bg-hud" aria-hidden="true">
+  <span class="hud-ruler l"></span><span class="hud-ruler r"></span>
+  <span class="hud-code l">ENDFIELD-OS · TERMINAL-07</span>
+  <span class="hud-code r">GACHA-SIM // OFFLINE-DATA</span>
+</div>
+
+<header class="topbar">
+  <div class="topbar-brand">
+    <div class="brand-hex" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="26" height="26"><polygon points="16,2 29,9.5 29,22.5 16,30 3,22.5 3,9.5" fill="none" stroke="#f5a623" stroke-width="2"/><polygon points="16,10 21,13 21,19 16,22 11,19 11,13" fill="#f5a623"/></svg>
+    </div>
+    <div class="brand-text">
+      <h1>终末地·寻访模拟器 <span class="brand-en">ENDFIELD GACHA SIM</span></h1>
+      <p class="brand-sub">非官方社区工具 · 数据来自官方公告与社区整理</p>
+    </div>
+  </div>
+  <div class="topbar-side">
+    <div class="topbar-leds" aria-hidden="true">
+      <span class="led-wrap"><span class="led led-amber"></span>SYS</span>
+      <span class="led-wrap"><span class="led led-green" id="sync-led"></span>LINK</span>
+      <span class="led-wrap"><span class="led led-cyan"></span>NET</span>
+    </div>
+    <div class="topbar-assets">
+      <div class="asset-badge jade-badge" title="累计寻访消耗嵌晶玉 (500/抽)">
+        <span class="asset-icon jade-icon" aria-hidden="true">◆</span>
+        <span class="asset-label">累计消耗</span>
+        <span class="asset-val" id="jade-spent-val">0</span>
+      </div>
+      <div class="asset-badge quota-badge" id="quota-badge" title="武库配额：寻访获取干员时返还，用于武库申领 (1980/十连)">
+        <span class="asset-icon quota-icon" aria-hidden="true">❖</span>
+        <span class="asset-label">武库配额</span>
+        <span class="asset-val" id="quota-val">--</span>
+      </div>
+    </div>
+    <div class="sync-info">
+      <span class="topbar-clock" id="topbar-clock">--:--:--</span>
+      <span class="sync-time" id="sync-time">同步中…</span>
+      <button class="btn btn-ghost btn-sync" id="btn-sync">
+        <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M8 1a7 7 0 0 1 6.3 4H12M14.3 8A7 7 0 0 1 8 15a7 7 0 0 1-6.3-4H4M1.7 8A7 7 0 0 1 8 1" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 1v4h4M0 11h4v4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        同步<span class="btn-sync-label">官方数据</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="mainnav" id="mainnav">
+  <a href="#/banner" data-view="banner" class="nav-item"><span class="nav-idx">01</span><span class="nav-led"></span>寻访模拟</a>
+  <a href="#/official" data-view="official" class="nav-item"><span class="nav-idx">02</span><span class="nav-led"></span>官方记录</a>
+  <a href="#/stats" data-view="stats" class="nav-item"><span class="nav-idx">03</span><span class="nav-led"></span>数据统计</a>
+  <a href="#/planner" data-view="planner" class="nav-item"><span class="nav-idx">04</span><span class="nav-led"></span>期望规划</a>
+  <a href="#/operators" data-view="operators" class="nav-item"><span class="nav-idx">05</span><span class="nav-led"></span>干员图鉴</a>
+  <a href="#/codex" data-view="codex" class="nav-item"><span class="nav-idx">06</span><span class="nav-led"></span>武器·基质·材料</a>
+  <a href="#/rules" data-view="rules" class="nav-item"><span class="nav-idx">07</span><span class="nav-led"></span>机制说明</a>
+</nav>
+
+<main id="view-root" class="view-root">
+  <div class="loading-block">
+    <div class="skel-stack" aria-hidden="true">
+      <div class="skel" style="width:30%"></div>
+      <div class="skel" style="width:86%"></div>
+      <div class="skel" style="width:56%"></div>
+      <div class="skel" style="width:72%"></div>
+    </div>
+    <p>正在载入模拟器数据…</p>
+  </div>
+</main>
+
+<footer class="foot">
+  <span>非官方社区模拟工具 · 与鹰角网络无关联 · 所有概率以游戏内官方公示为准</span>
+  <button class="btn btn-ghost btn-sm" id="btn-shutdown" title="停止本机模拟器服务（重新使用请双击 start.bat）">关闭服务</button>
+  <span class="foot-code">// SIM.LINK.OK</span>
+</footer>
+
+<div id="toast-root" class="toast-root" aria-live="polite"></div>
+<div id="modal-root"></div>
+
+<script src="js/runtime-shim.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

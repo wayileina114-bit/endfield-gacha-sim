@@ -1,0 +1,101 @@
+{
+  "_meta": {
+    "name": "明日方舟：终末地 寻访规则参数（公测版，数据截至 1.6「丹青渡」）",
+    "updatedAt": "2026-10-24",
+    "note": "所有概率与保底规则均来自官方公告及转载游戏内公示的高质量攻略（见 data/SOURCES.md）。带 assume 标记的条目为待核实的合理假设，前端会展示相应提示。"
+  },
+  "characterBanner": {
+    "rates": { "r6": 0.008, "r5": 0.08, "r4": 0.912 },
+    "softPity": { "startPull": 66, "incrementPerPull": 0.05, "hardPityPull": 80 },
+    "probabilityFormula": "P(n) = 0.8% (n<=65)；P(n) = 0.8% + 5%*(n-65) (66<=n<=79)；第80抽必定六星",
+    "upShareOnSixStar": 0.5,
+    "bannerGuarantee": {
+      "cumulativePulls": 120,
+      "oncePerBanner": true,
+      "note": "单池累计120抽必得当期UP；提前抽出UP则该保底消失；计数跨期清零不继承"
+    },
+    "pityInheritance": {
+      "pity6AcrossLimitedBanners": true,
+      "note": "80抽计数（含软保底水位）跨期限定寻访继承；基础寻访独立计数"
+    },
+    "offRateDistribution": { "mode": "uniform", "note": "非UP的50%在池内其余七名六星间均分（假设，官方未公示具体分配）", "assume": true },
+    "tenPullRarityFloor": { "rarity": 5, "note": "十连保底5星+（官方对加急十连使用此措辞，普通十连按同一机制实现）", "assume": true },
+    "rewards": {
+      "rush10AtPulls": 30,
+      "rush10": {
+        "name": "加急招募",
+        "note": "累计30抽送10次加急招募（免费十连），基础概率与本池一致，十连保5星+，出六星仍50%UP，但不计入任何保底/累计计数"
+      },
+      "nextBanner10TicketAtPulls": 60,
+      "upTokenEveryPulls": 240,
+      "upTokenNote": "单池每累计240抽额外获得当期UP六星信物x1，循环无上限，每期独立"
+    },
+    "dupes": "重复干员转为该干员信物（潜能+1），并照常获得武库配额"
+  },
+  "weaponBanner": {
+    "rates": { "r6": 0.04, "r5": 0.15, "r4": 0.81 },
+    "upShareWithinR6": 0.25,
+    "upRateDirect": 0.01,
+    "hardPityR6": 40,
+    "bannerUpGuaranteePulls": 80,
+    "bannerUpGuaranteeNote": "单池累计80抽必得当期UP限定六星武器，每期生效一次；40抽保底出六星（25%为UP），出金重置40计数；计数不跨期继承",
+    "softPity": null,
+    "softPityNote": "武器池无概率递增（未见任何来源提及，假设无）",
+    "tenPullOnly": true,
+    "costPerTenPullQuota": 1980,
+    "milestones": {
+      "start": 100,
+      "up": 180,
+      "cycleEvery": 80,
+      "note": "累计100抽送常驻六星武器自选（补充武库箱）、180抽送当期UP武器，其后每80抽交替（260常驻/340UP…）。交替间隔按 gamekee 口径80抽实现（17173另有160抽口径，待核实）",
+      "assume": true
+    },
+    "tenPullRarityFloor": { "rarity": 5, "assume": true },
+    "poolNotes": {
+      "fiveStarPool": "五星池名录仅社区部分确认（17173施术单元一图流：悼亡诗/布道自由/莫奈何/迷失荒野/O.B.J.术识，均为施术单元五星）；其他武器类型的五星名录未公开",
+      "fourStarPool": "四星及以下为量产型武器：官方公告与各社区wiki均无名录与立绘，模拟结果按池内武器类型呈现（如「四星单手剑」），图鉴用占位卡",
+      "tenPullDetail": "官方原文：每申领1次可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器"
+    }
+  },
+  "standardBanner": {
+    "rates": { "r6": 0.008, "r5": 0.08, "r4": 0.912 },
+    "softPity": { "startPull": 66, "incrementPerPull": 0.05, "hardPityPull": 80, "note": "基础寻访按与特许寻访相同的软/硬保底结构实现（官方仅公示80抽保底，软保底为假设）", "assume": true },
+    "hardPityPickFrom": "常驻六星五人（艾尔黛拉/骏卫/别礼/余烬/黎风）",
+    "selector": { "atPulls": 300, "onceOnly": true, "pickFrom": "常驻六星五人任选一位" },
+    "noUp": true
+  },
+  "newbieBanner": {
+    "name": "启程寻访",
+    "rates": { "r6": 0.008, "r5": 0.08, "r4": 0.912 },
+    "maxPulls": 40,
+    "closeOnSixStar": true,
+    "tenPullOnly": true,
+    "bonus": "完成寻访（出六星）后额外获得一把限定范围自选六星武器",
+    "currency": "主线任务赠送启程寻访凭证，不消耗付费资源"
+  },
+  "specialBanners": {
+    "huiguang": {
+      "name": "辉光庆典（特殊寻访）",
+      "maxPullsToSixStar": 10,
+      "perPullSixStarRate": 0.008,
+      "perPullRateNote": "每抽基础概率未公示（假设沿用0.8%），第10抽强制六星；保底独立计算不影响特许寻访",
+      "perPullReward": "每次寻访附赠1【保障配额】",
+      "poolNote": "池内仅4名六星（当期双复刻限定+2名常驻），四人均匀分布（假设）",
+      "assume": true
+    }
+  },
+  "quotaReward": {
+    "name": "武库配额",
+    "perSixStar": 2000,
+    "perFiveStar": 200,
+    "perFourStar": 20,
+    "note": "每次寻访获取干员时同时获得武库配额，用于武库申领（1980配额/十连）与武库交易所兑换（常驻六星武器2480/周限1、五星400、四星20）"
+  },
+  "economy": {
+    "pullCostCurrency": 500,
+    "pullCostCurrencyName": "嵌晶玉",
+    "originiumToJade": 75,
+    "topUp648": { "base": 280, "nonFirst": 350, "first": 560 },
+    "note": "1衍质源石=75嵌晶玉；500嵌晶玉=1抽；648元档基础280源石、非首充350、首充双倍560（小额档位源石数为推算值）"
+  }
+}

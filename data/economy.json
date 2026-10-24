@@ -1,0 +1,39 @@
+{
+  "_meta": { "note": "经济系统数据（来源见 data/SOURCES.md）。小额档位源石数为推算值。" },
+  "currency": {
+    "chain": "衍质源石（充值货币）→ 嵌晶玉 → 寻访凭证（1抽）",
+    "jadePerPull": 500,
+    "jadePerOriginium": 75,
+    "pullPerOriginium": 0.15,
+    "tenPullJade": 5000,
+    "tenPullDiscount": "无折扣",
+    "tickets": "各类限时寻访凭证（如行火留烬寻访凭证）与嵌晶玉等价使用"
+  },
+  "topUp": {
+    "tiers": [
+      { "cny": 6, "originium": 3, "estimated": true },
+      { "cny": 30, "originium": 12, "estimated": true },
+      { "cny": 98, "originium": 42, "estimated": true },
+      { "cny": 198, "originium": 85, "estimated": true },
+      { "cny": 328, "originium": 141, "estimated": true },
+      { "cny": 648, "originium": 280, "estimated": false, "nonFirst": 350, "first": 560 }
+    ],
+    "firstChargeBonus": "首充200%源石，续充约125%",
+    "perPullCny": { "noBonus": 15.4, "nonFirst": 12.34, "first": 7.71 }
+  },
+  "subscriptions": [
+    { "name": "月卡（30元）", "content": "立得12源石 + 每日200嵌晶玉×30天" },
+    { "name": "源石配给通行证", "content": "29源石解锁，返还32源石可续杯，含自选六星武器" },
+    { "name": "协议定制（68元）", "content": "20源石+自选六星武器+2400武库配额" },
+    { "name": "宏愿兵装（6元）", "content": "六星武器宏愿+6源石" },
+    { "name": "行火寻访（98元）", "content": "莱万汀十连" },
+    { "name": "全面人才包（128元）", "content": "2000武库配额+十连" },
+    { "name": "协议源流组合包（198元）", "content": "2000武库配额+十连+10存续痕迹" }
+  ],
+  "quotaSources": {
+    "gachaReturn": "每次寻访获取干员返武库配额：六星2000/五星200/四星20",
+    "others": ["衍质源石兑换", "信用交易所", "每周事务任务", "付费通行证（协议定制档2400配额）", "商城礼包（88/108/128元各2000配额）"],
+    "exchange": "武库交易所：常驻六星武器2480配额（每周限1）、五星400、四星20",
+    "weaponTenPullCost": 1980
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.endfield.gacha"
+    android:versionCode="1"
+    android:versionName="1.0.0">
+
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35"/>
+
+  <!-- 模拟器本体完全离线（资产内嵌）；官方账号同步需直连鹰角接口 -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <application
+      android:label="终末地寻访模拟器"
+      android:icon="@mipmap/ic_launcher"
+      android:theme="@android:style/Theme.Material.NoActionBar"
+      android:hardwareAccelerated="true"
+      android:allowBackup="true"
+      android:windowOptOutEdgeToEdgeEnforcement="true">
+    <activity
+        android:name=".MainActivity"
+        android:exported="true"
+        android:configChanges="orientation|screenSize|keyboardHidden|screenLayout"
+        android:windowSoftInputMode="adjustResize">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

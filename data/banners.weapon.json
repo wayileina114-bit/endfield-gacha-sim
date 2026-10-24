@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "note": "武库申领（武器池）历史。只能十连，1980武库配额/十连。六星4%（UP占1%），五星15%。40抽保底六星（25%UP），单池累计80抽必得当期UP（每期一次，不继承）。累计100/180抽送自选常驻/UP武器，其后每80抽交替。每期池内除UP外含常驻六星武器（完整池单以官方公告为准，引擎按『UP+14把常驻池武器』建模）。type: normal=常规申领, rerun=重构申领。",
+    "standardPool": "见 data/weapons.json 的 standardPoolSixStars（14把常驻六星武器）"
+  },
+  "banners": [
+    { "id": "w01", "name": "熔铸申领", "type": "normal", "version": "1.0", "start": "2026-01-22", "end": "2026-03-12", "up6": "熔铸火焰", "pairedCharBanner": "熔火灼痕", "notes": "贯穿1.0三期" },
+    { "id": "w02", "name": "绘涂申领", "type": "normal", "version": "1.0", "start": "2026-02-24", "end": "2026-03-12", "up6": "艺术暴君", "pairedCharBanner": "热烈色彩" },
+    { "id": "w03", "name": "新芽申领", "type": "normal", "version": "1.1", "start": "2026-03-12", "end": "2026-03-29", "up6": "落草", "pairedCharBanner": "河流的女儿" },
+    { "id": "w04", "name": "绯珀申领", "type": "normal", "version": "1.1", "start": "2026-03-29", "end": "2026-04-17", "up6": "狼之绯", "pairedCharBanner": "狼珀" },
+    { "id": "w05", "name": "行舟申领", "type": "normal", "version": "1.2", "start": "2026-04-17", "end": "2026-05-14", "up6": "孤舟", "pairedCharBanner": "春雷动，万物生" },
+    { "id": "w06", "name": "熔灼申领", "type": "normal", "version": "1.2", "start": "2026-05-14", "end": "2026-06-05", "up6": "熔铸火焰", "pairedCharBanner": "辉光庆典", "notes": "复刻UP，与疾行申领双开" },
+    { "id": "w07", "name": "疾行申领", "type": "normal", "version": "1.2", "start": "2026-05-14", "end": "2026-06-05", "up6": "使命必达", "pairedCharBanner": "辉光庆典", "notes": "使命必达首次UP" },
+    { "id": "w08", "name": "绛结申领", "type": "normal", "version": "1.3", "start": "2026-06-05", "end": "2026-06-26", "up6": "赤缨", "pairedCharBanner": "拳出无悔" },
+    { "id": "w09", "name": "染赤申领", "type": "normal", "version": "1.3", "start": "2026-06-26", "end": "2026-07-16", "up6": "镀红祝福", "pairedCharBanner": "逐罪者" },
+    { "id": "w10", "name": "军列申领", "type": "normal", "version": "1.4", "start": "2026-07-16", "end": "2026-08-09", "up6": "四二式·肃阵", "pairedCharBanner": "临渊望北" },
+    { "id": "w11", "name": "明曜申领", "type": "normal", "version": "1.4", "start": "2026-08-09", "end": "2026-09-02", "up6": "曜夜的首演", "pairedCharBanner": "晨星于此闪耀" },
+    { "id": "w12", "name": "幽寒申领", "type": "normal", "version": "1.5", "start": "2026-09-02", "end": "2026-09-30", "up6": "寒夜幽影", "pairedCharBanner": "冬猎" },
+    { "id": "w13", "name": "点绘申领", "type": "rerun", "version": "1.5", "start": "2026-09-24", "end": "2026-10-15", "up6": "艺术暴君", "pairedCharBanner": "绚丽异彩", "notes": "重构申领（复刻UP）" },
+    { "id": "w14", "name": "篆玉申领", "type": "normal", "version": "1.6", "start": "2026-10-15", "end": "2026-11-05", "up6": "玉中身", "pairedCharBanner": "万物更新" },
+    { "id": "w15", "name": "细枝申领", "type": "rerun", "version": "1.6", "start": "2026-10-29", "end": "2026-11-19", "up6": "落草", "pairedCharBanner": "祖泉的新流", "notes": "重构申领" },
+    { "id": "w16", "name": "月映申领", "type": "normal", "version": "1.6", "start": "2026-11-05", "end": "2026-11-26", "up6": "唤月", "pairedCharBanner": "烟火邀星河", "notes": "结束日期按版本周期推算" }
+  ]
+}
